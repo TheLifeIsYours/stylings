@@ -1,0 +1,98 @@
+#headband {
+background: -webkit-linear-gradient(top, rgb(151, 147, 147),rgb(56, 56, 56));
+background: -moz-linear-gradient(top, rgb(151, 147, 147),rgb(56, 56, 56));
+background: -ms-linear-gradient(top, rgb(151, 147, 147),rgb(56, 56, 56));
+background: -o-linear-gradient(top, rgb(151, 147, 147),rgb(56, 56, 56));
+background: linear-gradient(top, rgb(151, 147, 147),rgb(56, 56, 56));
+border-bottom: 1px solid black;
+box-shadow: 0px 3px 11px 0px black;
+z-index: 999;
+}
+
+#OnTheAir{
+background: #D60000;
+}
+#OnTheAir > p{
+color: #FAFAFA;
+}
+.ui-widget-overlay {
+background: rgba(88, 88, 88, 0.64);
+}
+.ui-widget-content {
+border: 1px solid #222;
+background: rgba(0,0,0,0);
+color: #222;
+}
+.ui-dialog.ui-widget.ui-widget-content.ui-corner-all.ui-front.ui-dialog-buttons.ui-draggable.ui-resizable {
+box-shadow: 1px 0px 8px 2px black;
+border: solid 1px rgba(0, 0, 0, 0.66);
+background: -webkit-linear-gradient(top, rgb(151, 151, 151), rgb(206, 206, 206));
+background: -moz-linear-gradient(top, rgb(151, 151, 151), rgb(206, 206, 206));
+background: -ms-linear-gradient(top, rgb(151, 151, 151), rgb(206, 206, 206));
+background: -o-linear-gradient(top, rgb(151, 151, 151), rgb(206, 206, 206));
+background: linear-gradient(top, rgb(151, 151, 151), rgb(206, 206, 206));
+min-width: 433px;
+min-height: 254px;
+padding: 0px;
+}
+.dialog-form input.text {
+margin-bottom: 12px;
+width: 95%;
+padding: .4em;
+background: white;
+}
+#dialog-form {
+min-width: inherit;
+padding-left: 0px;
+}
+#configureheadband {
+position: relative;
+left: 0px;
+z-index: 91;
+min-height: 35px;
+overflow: auto;
+overflow-y: hidden;
+background: rgba(112, 112, 112, 0.78);
+padding-top: 5px;
+border-bottom: solid 1px #3b3b3b;
+}
+#OBSHeader:hover {
+text-shadow: 0px 0px 4px orange;
+}
+#chathideshow {
+bottom: 0px;
+}
+#chatView {
+background: #222;
+width: 440px;
+position: absolute;
+height: 100%;
+right: 0px;
+max-width: 1026px;
+}
+div.config {
+float: left;
+vertical-align: middle;
+font-weight: normal;
+margin-top: 6.5px;
+margin-bottom: 6.5px;
+border: 1px solid #000;
+background: white;
+}
+#logouttwitch:active {
+background: -webkit-linear-gradient(top,silver,white);
+background: -moz-linear-gradient(top,silver,white);
+background: -ms-linear-gradient(top,silver,white);
+background: -o-linear-gradient(top,silver,white);
+background: linear-gradient(top,silver,white);
+}
+#logouttwitch {
+background: -webkit-linear-gradient(top,white,silver);
+background: -moz-linear-gradient(top,white,silver);
+background: -ms-linear-gradient(top,white,silver);
+background: -o-linear-gradient(top,white,silver);
+background: linear-gradient(top,white,silver);
+}
+#SceneList,#SourceList {
+    margin-right: 3px;
+}
